@@ -1,0 +1,286 @@
+div {
+	/*border: 1px solid black;
+	font-family: 'Libre Baskerville', serif;
+	text-align: center;*/
+	
+}
+
+.top-banner {
+	overflow: hidden;
+	padding-top: 35px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+	font-family: 'Libre Baskerville', serif;
+	text-align: center;
+
+}
+
+.top-banner .name-blog {
+	float: center;
+	display: block;
+	text-align: center;
+	font-size: 26px;
+	font-weight: 700 !important;
+	letter-spacing: 10px;
+	display: inline-block;
+	text-decoration:none !important;
+	color: black !important;
+	position: relative;
+	left: 25px;
+
+}
+
+.top-banner .all-posts {
+	float: left;
+	display: block;
+	font-size: 17px;
+	font-weight: 700 !important;
+	letter-spacing: 2px;
+	display: inline-block;
+	text-decoration:none !important;
+	color: black !important;
+
+}
+
+.top-banner .book-stay {
+	float: right;
+	display: block;
+	font-size: 17px;
+	font-weight: 700 !important;
+	letter-spacing: 2px;
+	display: inline-block;
+	text-decoration:none !important;
+	color: black !important;
+	background: none !important;
+	border: none !important;
+}
+.top-banner .all-posts:hover {
+	text-decoration: none !important;
+	border-bottom: 3px solid black !important;
+	display: inline-block;
+
+}
+.top-banner .book-stay:hover {
+	text-decoration: none !important;
+	border-bottom: 3px solid black !important;
+	display: inline-block;
+
+}
+
+#slogan{
+	font-size: 10px;
+	letter-spacing: 2px;
+	font-family: 'Lato', sans-serif !important;
+	text-decoration: none !important;
+}
+
+.form-popup{
+	display: none;
+	position: fixed;
+	top: 60px;
+	right: 15px;
+	z-index: 9;
+}
+
+.form-container{
+	max-width: 500px;
+	padding: 15px;
+	background-color: white;
+	border: 1px solid black !important;
+	font-family: 'Lato', sans-serif !important;
+	font-size: 23px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+.form-container input[type=text]{
+	width: 100%;
+	background: white;
+	border: 2px solid black !important;
+	margin: 5px 0 22px 0;
+	padding: 12px;
+	font-size: 12px;
+
+}
+
+.form-container .btn{
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	margin-bottom: 10px;
+	letter-spacing: 3px;
+	font-size: 13px;
+}
+
+.form-container .btn:hover{
+	text-decoration: none !important;
+	border-bottom: 3px solid black !important;
+	display: inline-block;
+}
+
+#answer {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 15px;
+
+}
+
+
+.container {
+	margin-top: 120px;
+}
+
+
+#box3:hover {
+	background-color: pink;
+	background-image: url('thened.jpg');
+	height: 565px;
+	width: 350px;
+}
+
+#box3 {
+	background-image: url('thenedsecond.jpg');
+	height: 565px;
+	width: 350px;
+	left: 5px;
+}
+
+#box2:hover {
+	background-color: pink;
+	background-image: url('marble.jpg');
+	height: 565px;
+	width: 350px;
+}
+
+#box2 {
+	background-image: url('livingroom3.jpg');
+	height: 565px;
+	width: 340px;
+	display: block;
+	right: 3px;
+	left: 1px;
+	
+}
+
+#box1:hover {
+	background-color: pink;
+	background-image: url('tulum4.jpg');
+	height: 565px;
+	width: 350px;
+}
+
+#box1 {
+	background-image: url('tulumwater.jpg');
+	height: 565px;
+	width: 350px;
+	display: block;
+	right: 3px;
+}
+
+
+.text-country {
+	position: relative;
+	display: block;
+	top: 600px;
+	padding-bottom: 10px;
+ 	font-family: 'Libre Baskerville', serif;
+	font-size: 20px !important;
+	text-align: center;
+	font-weight: 700 !important;
+	letter-spacing: 2px;
+}
+
+.text-country a{
+	text-decoration: none !important;
+	color: black !important;
+}
+
+.text-hotel {
+	font-size: 14px;
+	text-decoration:none !important;
+	color: black !important;
+
+ }
+
+ .text-blog {
+ 	margin-top: 100px;
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+ 	font-size: 17px;
+ 	font-family: 'Libre Baskerville', serif;
+ 	text-align: center;
+
+ }
+
+
+ .bottom-nav {
+ 	bottom: 0;
+ 	width: 100%;
+ 	padding-top: 50px;
+ 	padding-bottom: 15px;
+ 	font-family: 'Lato', sans-serif !important;
+ 	text-align: center;
+ }
+
+ .bottom-nav .bottom-tabs {
+ 	font-size: 13px;
+ 	letter-spacing: 2px;
+ 	text-align: center;
+ 	display: inline-block;
+ 	float: center;
+ 	padding: 15px;
+ 	color: black !important;
+ 	text-decoration: none !important;
+ }
+
+ .bottom-nav .bottom-tabs:hover {
+	text-decoration: none !important;
+	border-bottom: 3px solid black !important;
+	display: inline-block;
+
+}
+
+
+@media (max-width: 960px){
+
+.top-banner .all-posts{
+	display: none;
+}
+
+.top-banner .book-stay{
+	display: none;
+}
+
+.text-country{
+	display: none;
+}
+.text-hotel{
+	display: none;
+}
+#box1 {
+	background-image: url('tulumwater.jpg');
+	height: 565px;
+	width: 350px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	
+}
+#box3 {
+	background-image: url('thenedsecond.jpg');
+	height: 565px;
+	width: 350px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	
+}
+#box2 {
+	background-image: url('livingroom3.jpg');
+	height: 565px;
+	width: 350px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	
+}
+	}

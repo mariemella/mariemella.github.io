@@ -1,0 +1,255 @@
+/*div {
+	border: 1px solid black;
+	
+}*/
+
+.top-banner {
+	overflow: hidden;
+	padding-top: 35px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+	font-family: 'Libre Baskerville', serif;
+	text-align: center;
+
+}
+
+.top-banner .name-blog {
+	float: center;
+	display: block;
+	text-align: center;
+	font-size: 26px;
+	font-weight: 700 !important;
+	letter-spacing: 10px;
+	display: inline-block;
+	text-decoration:none !important;
+	color: black !important;
+	position: relative;
+	left: 29px;
+
+}
+
+.top-banner .all-posts {
+	float: left;
+	display: block;
+	font-size: 17px;
+	font-weight: 700 !important;
+	letter-spacing: 2px;
+	display: inline-block;
+	text-decoration:none !important;
+	color: black !important;
+
+}
+
+.top-banner .book-stay {
+	float: right;
+	display: block;
+	font-size: 17px;
+	font-weight: 700 !important;
+	letter-spacing: 2px;
+	display: inline-block;
+	text-decoration:none !important;
+	color: black !important;
+	background: none !important;
+	border: none !important;
+}
+.top-banner .all-posts:hover {
+	text-decoration: none !important;
+	border-bottom: 3px solid black !important;
+	display: inline-block;
+
+}
+.top-banner .book-stay:hover {
+	text-decoration: none !important;
+	border-bottom: 3px solid black !important;
+	display: inline-block;
+
+}
+#slogan{
+	font-size: 10px;
+	letter-spacing: 2px;
+	font-family: 'Lato', sans-serif !important;
+	text-decoration: none !important;
+}
+
+.form-popup{
+	display: none;
+	position: fixed;
+	top: 60px;
+	right: 15px;
+	z-index: 9;
+}
+
+.form-container{
+	max-width: 500px;
+	padding: 15px;
+	background-color: white;
+	border: 1px solid black !important;
+	font-family: 'Lato', sans-serif !important;
+	font-size: 23px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+.form-container input[type=text]{
+	width: 100%;
+	background: white;
+	border: 2px solid black !important;
+	margin: 5px 0 22px 0;
+	padding: 12px;
+	font-size: 12px;
+
+}
+
+.form-container .btn{
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	margin-bottom: 10px;
+	letter-spacing: 3px;
+	font-size: 13px;
+}
+
+.form-container .btn:hover{
+	text-decoration: none !important;
+	border-bottom: 3px solid black !important;
+	display: inline-block;
+}
+
+#answer {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 15px;
+
+}
+
+.container {
+	margin-top: 100px;
+}
+
+.text-country {
+ 	padding-top: 15px;
+	padding-bottom: 10px;
+ 	font-family: 'Libre Baskerville', serif;
+	font-size: 20px !important;
+	text-align: center;
+	font-weight: 700 !important;
+	letter-spacing: 2px;
+}
+
+.text-country a{
+	text-decoration: none !important;
+	color: black !important;
+}
+
+.text-hotel {
+	font-size: 14px;
+	text-decoration:none !important;
+	color: black !important;
+	text-align: center;
+
+ }
+ .hotel-pics {
+	height: 400px;
+	width: 400px;
+}
+
+.row2 {
+	/*margin-top: 5px;*/
+}
+
+ .bottom-nav {
+ 	bottom: 0;
+ 	width: 100%;
+ 	padding-top: 50px;
+ 	padding-bottom: 15px;
+ 	text-align: center;
+ }
+
+ .bottom-nav .bottom-tabs {
+ 	font-size: 13px;
+ 	letter-spacing: 2px;
+ 	text-align: center;
+ 	display: inline-block;
+ 	float: center;
+ 	padding: 15px;
+ 	color: black !important;
+ 	text-decoration: none !important;
+ }
+
+ .bottom-nav .bottom-tabs:hover {
+	text-decoration: none !important;
+	border-bottom: 3px solid black !important;
+	display: inline-block;
+
+}
+
+	#ad{
+		width: 600px;
+		height: 400px;
+		background-color: white;
+		position: fixed;
+		top: 200px;
+		left: -230px;
+		animation: move 5s;
+		animation-fill-mode: forwards;
+		max-width: 500px;
+		font-family: 'Libre Baskerville', serif;
+		font-size: 18px;
+		font-weight: bold;
+		letter-spacing: 2px;
+		text-align: center;
+		border: 1px solid black;
+		z-index: 50;
+
+	}
+
+	#more{
+		font-size:;
+	}
+
+	#imgad{
+		width: 300px;
+		height: 250px;
+		padding: 5px;
+	}
+
+	#btn{
+		padding-top: 10px;
+		text-decoration: none !important;
+		border: none !important;
+		background: none !important;
+		color: black;
+		font-family: 'Lato', sans-serif !important;
+		font-size: 13px;
+	}
+	#btn:hover{
+		text-decoration: none !important;
+	    border-bottom: 3px solid black !important;
+	}
+	@keyframes move{
+		0%{
+			left: -250px;
+		}
+		100%{
+			left: 33%;
+		}
+	}
+
+
+@media (max-width: 960px){
+
+	.top-banner .all-posts{
+		display: none;
+	}
+
+	.top-banner .book-stay{
+		display: none;
+	}
+
+	#ad{
+		display: none;
+	}
+
+	}

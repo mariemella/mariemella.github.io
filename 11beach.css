@@ -1,0 +1,239 @@
+/*div {
+	border: 1px solid black;
+	font-family: 'Libre Baskerville', serif;
+		
+}*/
+
+.container-fluid {
+	margin-top: 100px;
+	position: relative;
+}
+
+.top-banner {
+	overflow: hidden;
+	padding-top: 35px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+	text-align: center;	
+	font-family: 'Libre Baskerville', serif;
+
+}
+
+#slogan{
+	font-size: 10px;
+	letter-spacing: 2px;
+	font-family: 'Lato', sans-serif !important;
+	text-decoration: none !important;
+}
+
+.top-banner .name-blog {
+	float: center;
+	display: block;
+	text-align: center;
+	font-size: 26px;
+	font-weight: 700 !important;
+	letter-spacing: 10px;
+	display: inline-block;
+	text-decoration:none !important;
+	color: black !important;
+	position: relative;
+	right: 50px;
+
+}
+
+.top-banner .all-posts {
+	float: left;
+	margin-left: 10px;
+	display: block;
+	font-size: 17px;
+	font-weight: 700 !important;
+	letter-spacing: 2px;
+	display: inline-block;
+	text-decoration:none !important;
+	color: black !important;
+
+}
+
+
+.top-banner .all-posts:hover {
+	text-decoration: none !important;
+	border-bottom: 3px solid black !important;
+	display: inline-block;
+
+}
+.top-banner .book-stay:hover {
+	text-decoration: none !important;
+	border-bottom: 3px solid black !important;
+	display: inline-block;
+
+}
+
+.bottom-nav {
+ 	bottom: 0;
+ 	width: 100%;
+ 	padding-top: 50px;
+ 	padding-bottom: 15px;
+ 	text-align: center;	
+ 	font-family: 'Lato', sans-serif !important;
+ }
+
+ .bottom-nav .bottom-tabs {
+ 	font-size: 13px;
+ 	letter-spacing: 2px;
+ 	text-align: center;
+ 	display: inline-block;
+ 	float: center;
+ 	padding: 15px;
+ 	color: black !important;
+ 	text-decoration: none !important;
+ }
+
+ .bottom-nav .bottom-tabs:hover {
+	text-decoration: none !important;
+	border-bottom: 3px solid black !important;
+	display: inline-block;
+
+}
+
+.container {
+	margin-top: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.image {
+  vertical-align: middle;
+  height: 600px;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px 3px 3px 5px;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  margin-right: 10px;
+}
+
+.prev {
+	left:0;
+	border-radius: 3px 0 0 3px;
+	margin-left: 10px;
+}
+
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 0;
+}
+
+.review {
+	display: block;
+	font-size: 18px;
+	letter-spacing: 2px;
+	text-align: center;
+	margin-top: 150px;
+	font-family: 'Libre Baskerville', serif;
+
+}
+
+.hotel-pics {
+	height: 600px;
+}
+
+.hotel1 {
+	height:285px;
+}
+
+.hotel2 {
+	height: 285px;
+	margin-top: 30px;
+}
+
+.row2  {
+	margin-top: 85px;
+}
+
+.row3 {
+	margin-top: 85px;
+}
+
+.directions {
+	display: block;
+	font-size: 18px;
+	letter-spacing: 2px;
+	text-align: center;
+	margin-top: 200px;
+	font-family: 'Libre Baskerville', serif;
+}
+
+.instagram-icon {
+	height: 25px;
+	width: 25px;
+}
+
+.website-icon {
+	height: 25px;
+	width: 25px;
+}
+
+@media (max-width: 960px){
+
+.top-banner .all-posts{
+	display: none;
+}
+
+.top-banner .book-stay{
+	display: none;
+}
+
+.map {
+	display: none;
+}
+
+.living{
+	display: none;
+}
+
+.box3{
+	display: none;
+}
+
+.image {
+  vertical-align: middle;
+  height: 250px;
+  width: 100%;
+}
+
+.directions{
+	margin-top: 5px;
+}
+
+.row3{
+	margin-top: 0px;
+}
+
+.review{
+	margin-top: 20px;
+}
+
+}

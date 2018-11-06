@@ -1,0 +1,204 @@
+/*div{
+	border: 1px solid black;
+}*/
+
+
+.top-banner {
+	overflow: hidden;
+	padding-top: 35px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+	font-family: 'Libre Baskerville', serif;
+	text-align: center;
+
+}
+
+.top-banner .name-blog {
+	float: center;
+	display: block;
+	text-align: center;
+	font-size: 26px;
+	font-weight: 700 !important;
+	letter-spacing: 10px;
+	display: inline-block;
+	text-decoration:none !important;
+	color: black !important;
+	position: relative;
+	left: 45px;
+
+}
+
+.top-banner .all-posts {
+	float: left;
+	display: block;
+	font-size: 17px;
+	font-weight: 700 !important;
+	letter-spacing: 2px;
+	display: inline-block;
+	text-decoration:none !important;
+	color: black !important;
+
+}
+
+.top-banner .book-stay {
+	float: right;
+	display: block;
+	font-size: 17px;
+	font-weight: 700 !important;
+	letter-spacing: 2px;
+	display: inline-block;
+	text-decoration:none !important;
+	color: black !important;
+	background: none !important;
+	border: none !important;
+}
+.top-banner .all-posts:hover {
+	text-decoration: none !important;
+	border-bottom: 3px solid black !important;
+	display: inline-block;
+
+}
+.top-banner .book-stay:hover {
+	text-decoration: none !important;
+	border-bottom: 3px solid black !important;
+	display: inline-block;
+
+}
+
+#slogan{
+	font-size: 10px;
+	letter-spacing: 2px;
+	font-family: 'Lato', sans-serif !important;
+	text-decoration: none !important;
+}
+
+
+.form-popup{
+	display: none;
+	position: fixed;
+	top: 60px;
+	right: 15px;
+	z-index: 9;
+}
+
+.form-container{
+	max-width: 500px;
+	padding: 15px;
+	background-color: white;
+	border: 1px solid black !important;
+	font-family: 'Lato', sans-serif !important;
+	font-size: 23px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+.form-container input[type=text]{
+	width: 100%;
+	background: white;
+	border: 2px solid black !important;
+	margin: 5px 0 22px 0;
+	padding: 12px;
+	font-size: 12px;
+
+}
+
+.form-container .btn{
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	margin-bottom: 10px;
+	letter-spacing: 3px;
+	font-size: 13px;
+}
+
+.form-container .btn:hover{
+	text-decoration: none !important;
+	border-bottom: 3px solid black !important;
+	display: inline-block;
+}
+
+#answer {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 15px;
+
+}
+
+
+.row {
+	margin-top: 100px;
+}
+
+.hotel-pics{
+	height: 550px;
+	
+}
+
+#contact {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 15px;
+	font-weight: 700 !important;
+	margin-top: 100px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+#result {
+	font-size: 15px;
+	font-weight: 700 !important;
+	margin-top: 50px;
+	text-align: center;
+	letter-spacing: 2px;
+	font-family: 'Libre Baskerville', serif;
+	
+}
+
+a {
+	text-decoration-style: none !important;
+
+}
+
+ .bottom-nav {
+ 	bottom: 0;
+ 	width: 100%;
+ 	padding-top: 40px;
+ 	padding-bottom: 5px;
+ 	font-family: 'Lato', sans-serif !important;
+ 	text-align: center;
+ }
+
+ .bottom-nav .bottom-tabs {
+ 	font-size: 13px;
+ 	letter-spacing: 2px;
+ 	text-align: center;
+ 	display: inline-block;
+ 	float: center;
+ 	padding: 15px;
+ 	color: black !important;
+ 	text-decoration: none !important;
+ }
+
+  .bottom-nav .bottom-tabs:hover {
+	text-decoration: none !important;
+	border-bottom: 3px solid black !important;
+	display: inline-block;
+}
+
+
+ @media (max-width: 960px){
+
+.hotel-pics{
+	display: none;
+}
+
+.top-banner .all-posts{
+	display: none;
+ }
+
+.top-banner .book-stay{
+	display: none;
+}
+
+
