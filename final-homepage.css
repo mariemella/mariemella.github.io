@@ -261,14 +261,10 @@ div {
 #box1 {
 	background-image: url('tulumwater.jpg');
 	height: 550px;
-	width: 3200px;
+	width: 320px;
 	margin-bottom: 20px;
 }
-#box1:hover {
-	background-image: url('tulum4.jpg');
-	height: 555px;
-	width: 320px;
-}
+
 #box3 {
 	background-image: url('thenedsecond.jpg');
 	height: 550px;
