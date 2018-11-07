@@ -261,24 +261,22 @@ div {
 #box1 {
 	background-image: url('tulumwater.jpg');
 	height: 550px;
-	width: 320px;
+	width: 300px;
 	margin-bottom: 20px;
 }
 
 #box3 {
 	background-image: url('thenedsecond.jpg');
 	height: 550px;
-	width: 350px;
+	width: 300px;
 	margin-bottom: 20px;
-	margin-left: 20px;
 	
 }
 #box2 {
 	background-image: url('livingroom3.jpg');
 	height: 550px;
-	width: 350px;
+	width: 300px;
 	margin-bottom: 20px;
-	margin-left: 20px;	
 }
  .text-blog {
  	margin-top: 50px;
