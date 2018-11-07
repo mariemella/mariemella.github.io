@@ -243,6 +243,9 @@ div {
 
 
 @media (max-width: 960px){
+.top-banner .name-blog{
+	left: 20px;
+}
 
 .top-banner .all-posts{
 	display: none;
@@ -261,22 +264,24 @@ div {
 #box1 {
 	background-image: url('tulumwater.jpg');
 	height: 500px;
-	width: 270px;
+	width: 300px;
 	margin-bottom: 20px;
 }
 
 #box3 {
 	background-image: url('thenedsecond.jpg');
 	height: 500px;
-	width: 270px;
+	width: 300px;
 	margin-bottom: 20px;
+	margin-left: 10px;
 	
 }
 #box2 {
 	background-image: url('livingroom3.jpg');
 	height: 500px;
-	width: 270px;
+	width: 300px;
 	margin-bottom: 20px;
+	margin-left: 10px;	
 }
  .text-blog {
  	margin-top: 50px;

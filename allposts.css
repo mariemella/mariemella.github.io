@@ -239,6 +239,9 @@
 
 
 @media (max-width: 960px){
+	.top-banner .name-blog{
+		left: 20px;
+	}
 
 	.top-banner .all-posts{
 		display: none;
