@@ -165,7 +165,6 @@ div {
 }
 
 #box1:hover {
-	background-color: pink;
 	background-image: url('tulum4.jpg');
 	height: 565px;
 	width: 350px;
@@ -262,10 +261,13 @@ div {
 #box1 {
 	background-image: url('tulumwater.jpg');
 	height: 550px;
-	width: 350px;
+	width: 3200px;
 	margin-bottom: 20px;
-	margin-left: 20px;
-	
+}
+#box1:hover {
+	background-image: url('tulum4.jpg');
+	height: 555px;
+	width: 320px;
 }
 #box3 {
 	background-image: url('thenedsecond.jpg');
